@@ -1,0 +1,16 @@
+{
+  "session": "compressd_video_3f_tp3DLC_resnet101_AlbitOct19shuffle2_100000_filtered.csv",
+  "camera_records": 53989,
+  "dlc_rows": 48752,
+  "frame_difference": 5237,
+  "difference_percent_of_camera": 9.7,
+  "camera_duration_s": 1799.9338933,
+  "queue_column_present": true,
+  "recovery_status": "No verified frame mapping: diagnostics only",
+  "maximum_observed_queue": 900.0,
+  "first_90pct_of_max_queue_s": 502.2560119,
+  "first_at_max_queue_s": 509.5241903,
+  "fraction_at_or_above_95pct_max": 0.718442645724129,
+  "fraction_at_max": 0.1652744077497268,
+  "note": "Frame count mismatch plus queue saturation indicates writer overload, but does not identify which camera frame indices survived in MP4/DLC. Do not align by naive resampling for shock/transition analysis."
+}
